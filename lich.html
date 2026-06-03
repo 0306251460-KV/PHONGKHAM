@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý lịch khám | Cao Thắng Clinic</title>
+    <link href="./style1.css" rel="stylesheet">>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">📋 QUẢN LÝ LỊCH KHÁM CAO THẮNG</div>
+            <p><strong>📅 Ngày: 15/12/2024 | Ca sáng 7h-12h | Ca chiều 13h-20h</strong></p>
+        </header>
+
+        <div class="schedule-container">
+            <div class="schedule-header">
+                <h2>🏥 LỊCH KHÁM THEO PHÒNG</h2>
+            </div>
+            
+            <div class="schedule-grid">
+                <!-- PHÒNG 1 - NỘI KHOA -->
+                <div class="room">
+                    <div class="room-header">🏥 PHÒNG 1 - NỘI KHOA (BS. Nguyễn Văn A)</div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Trần Thị B</div>
+                        <div class="patient-time">7:30 - 7:45</div>
+                        <div class="patient-dept">Sốt, ho</div>
+                        <span class="status chua-den">Chưa đến</span>
+                    </div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Lê Văn C</div>
+                        <div class="patient-time">8:00 - 8:15</div>
+                        <div class="patient-dept">Đau dạ dày</div>
+                        <span class="status dang-kham">Đang khám</span>
+                    </div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Phạm Thị D</div>
+                        <div class="patient-time">8:30 - 8:45</div>
+                        <div class="patient-dept">Huyết áp cao</div>
+                        <span class="status xong">Đã xong</span>
+                    </div>
+                </div>
+
+                <!-- PHÒNG 2 - NGOẠI KHOA -->
+                <div class="room">
+                    <div class="room-header">🔪 PHÒNG 2 - NGOẠI KHOA (BS. Trần Văn E)</div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Nguyễn Văn F</div>
+                        <div class="patient-time">7:45 - 8:00</div>
+                        <div class="patient-dept">Vết thương</div>
+                        <span class="status chua-den">Chưa đến</span>
+                    </div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Hoàng Thị G</div>
+                        <div class="patient-time">8:15 - 8:30</div>
+                        <div class="patient-dept">Đau khớp</div>
+                        <span class="status chua-den">Chưa đến</span>
+                    </div>
+                </div>
+
+                <!-- PHÒNG 3 - NHA KHOA -->
+                <div class="room">
+                    <div class="room-header">🦷 PHÒNG 3 - RĂNG HÀM MẶT (BS. Lê Thị H)</div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Vũ Văn I</div>
+                        <div class="patient-time">7:30 - 7:50</div>
+                        <div class="patient-dept">Nhổ răng</div>
+                        <span class="status xong">Đã xong</span>
+                    </div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Đặng Thị K</div>
+                        <div class="patient-time">8:00 - 8:30</div>
+                        <div class="patient-dept">Trám răng</div>
+                        <span class="status dang-kham">Đang khám</span>
+                    </div>
+                </div>
+
+                <!-- PHÒNG 4 - DA LIỄU -->
+                <div class="room">
+                    <div class="room-header">👩‍🔬 PHÒNG 4 - DA LIỄU (BS. Phạm Văn L)</div>
+                    <div class="patient-slot">
+                        <div class="patient-info">Bùi Thị M</div>
+                        <div class="patient-time">8:00 - 8:20</div>
+                        <div class="patient-dept">Mụn trứng cá</div>
+                        <span class="status chua-den">Chưa đến</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h3>📊 TỔNG KẾT LỊCH KHÁM</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">12</div>
+                    <div>Bệnh nhân hôm nay</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4</div>
+                    <div>Đã khám xong</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div>Đang khám</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div>Chờ khám</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>🔄 Tự động cập nhật mỗi 5 phút | Phòng khám Cao Thắng 2024</p>
+        </footer>
+    </div>
+</body>
+</html>

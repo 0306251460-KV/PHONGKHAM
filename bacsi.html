@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bác sĩ - Chẩn đoán | Cao Thắng Clinic</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">👨‍⚕️ HỆ THỐNG CHẨN ĐOÁN - PHÒNG KHÁM CAO THẮNG</div>
+            <div class="doctor-info">
+                <strong>🔐 ĐĂNG NHẬP: BS. Nguyễn Văn A - Nội khoa</strong>
+            </div>
+        </header>
+
+        <div class="main-grid">
+            <div class="card">
+                <h3>📋 THÔNG TIN BỆNH NHÂN</h3>
+                <label>Mã bệnh nhân:</label>
+                <input type="text" value="BN001234" readonly>
+                
+                <label>Họ tên:</label>
+                <input type="text" value="Trần Thị B">
+                
+                <label>Tuổi:</label>
+                <input type="number" value="35">
+                
+                <label>Giới tính:</label>
+                <select>
+                    <option>Nữ</option>
+                    <option>Nam</option>
+                </select>
+                
+                <label>Khoa:</label>
+                <select>
+                    <option selected>Nội khoa</option>
+                    <option>Ngoại khoa</option>
+                    <option>Răng hàm mặt</option>
+                </select>
+            </div>
+            <div class="card">
+                <h3>🔬 TRIỆU CHỨNG & CHẨN ĐOÁN</h3>
+                
+                <label>Triệu chứng:</label>
+                <textarea placeholder="Ghi triệu chứng bệnh nhân mô tả... 
+VD: Đau đầu, sốt 38.5°C, ho có đờm..."></textarea>
+                
+                <label>Chẩn đoán:</label>
+                <textarea placeholder="Ghi chẩn đoán của bác sĩ...
+VD: Viêm họng cấp, Cao huyết áp độ 1..."></textarea>
+                
+                <label>Thuốc kê đơn:</label>
+                <textarea placeholder="Ghi đơn thuốc...
+VD: Paracetamol 500mg x 2 viên/ngày x 5 ngày
+Amoxicillin 500mg x 1 viên x 3 lần/ngày x 7 ngày"></textarea>
+            </div>
+        </div>
+
+        <!-- IN ĐƠN THUỐC -->
+        <div class="card">
+            <h3>🖨️ IN ĐƠN THUỐC & HƯỚNG DẪN</h3>
+            <div class="print-area">
+                <strong>ĐƠN THUỐC PHÒNG KHÁM CAO THẮNG</strong><br><br>
+                <div style="border-top: 2px solid #333; padding-top: 15px;">
+                    <strong>Bệnh nhân: ___________________</strong><br>
+                    Ngày khám: <strong>__/__/____</strong><br><br>
+                    💊 <strong>ĐƠN THUỐC:</strong><br>
+                    _______________________________<br>
+                    _______________________________<br>
+                    _______________________________<br><br>
+                    <strong>HƯỚNG DẪN:</strong><br>
+                    ________________________________<br>
+                    ________________________________<br><br>
+                    <strong>Bác sĩ:</strong> ___________________<br>
+                    <em>(Ký và đóng dấu)</em>
+                </div>
+            </div>
+            <button class="btn">✅ HOÀN THÀNH CHẨN ĐOÁN</button>
+            <div class="status">
+                <strong>📊 Trạng thái:</strong> Sẵn sàng tiếp bệnh nhân tiếp theo
+            </div>
+        </div>
+
+        <footer>
+            <p>👨‍⚕️ Hệ thống quản lý chẩn đoán v1.0 | Phòng khám Cao Thắng 2024</p>
+        </footer>
+    </div>
+</body>
+</html>

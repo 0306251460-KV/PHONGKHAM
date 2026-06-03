@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin - Phòng Khám Cao Thắng</title>
+<link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>⚙️ TRANG QUẢN TRỊ PHÒNG KHÁM CAO THẮNG</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="lich.html">Lịch khám</a></li>
+        <li><a href="bacsi.html">Bác sĩ</a></li>
+        <li><a href="admin.html" class="active">Admin</a></li>
+    </ul>
+</nav>
+
+<div class="admin-container">
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h2>Bệnh nhân</h2>
+            <p>125</p>
+        </div>
+
+        <div class="card">
+            <h2>Bác sĩ</h2>
+            <p>12</p>
+        </div>
+
+        <div class="card">
+            <h2>Lịch hẹn</h2>
+            <p>34</p>
+        </div>
+
+        <div class="card">
+            <h2>Doanh thu</h2>
+            <p>50M</p>
+        </div>
+
+    </div>
+
+    <div class="admin-section">
+
+        <h2>👨‍⚕️ Quản lý bác sĩ</h2>
+
+        <button class="add-btn">+ Thêm bác sĩ</button>
+
+        <table>
+            <tr>
+                <th>Mã BS</th>
+                <th>Họ tên</th>
+                <th>Chuyên khoa</th>
+                <th>Thao tác</th>
+            </tr>
+
+            <tr>
+                <td>BS01</td>
+                <td>Nguyễn Văn A</td>
+                <td>Nội khoa</td>
+                <td>
+                    <button class="btn edit">Sửa</button>
+                    <button class="btn delete">Xóa</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>BS02</td>
+                <td>Trần Văn B</td>
+                <td>Ngoại khoa</td>
+                <td>
+                    <button class="btn edit">Sửa</button>
+                    <button class="btn delete">Xóa</button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="admin-section">
+
+        <h2>📅 Quản lý lịch hẹn</h2>
+
+        <table>
+            <tr>
+                <th>Mã lịch</th>
+                <th>Bệnh nhân</th>
+                <th>Ngày khám</th>
+                <th>Khoa</th>
+            </tr>
+
+            <tr>
+                <td>LH001</td>
+                <td>Nguyễn Văn C</td>
+                <td>10/06/2026</td>
+                <td>Nội khoa</td>
+            </tr>
+
+            <tr>
+                <td>LH002</td>
+                <td>Lê Thị D</td>
+                <td>10/06/2026</td>
+                <td>Răng hàm mặt</td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Phòng Khám Đa Khoa Cao Thắng</p>
+</footer>
+
+</body>
+</html>
